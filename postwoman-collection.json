@@ -1,0 +1,223 @@
+[
+  {
+    "name": "My Collection",
+    "folders": [],
+    "requests": []
+  },
+  {
+    "name": "auth-gateway",
+    "folders": [],
+    "requests": [
+      {
+        "url": "http://localhost:5000",
+        "path": "/",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [
+          {
+            "key": "authorization",
+            "value": "7pmeVxCiNwVIRim"
+          }
+        ],
+        "params": [],
+        "bodyParams": [
+          {
+            "key": "email",
+            "value": "teste@teste.com"
+          },
+          {
+            "key": "password",
+            "value": "123456"
+          }
+        ],
+        "rawParams": "",
+        "rawInput": true,
+        "contentType": "",
+        "requestType": "",
+        "preRequestScript": null,
+        "testScript": null,
+        "name": "/",
+        "collection": 1
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/registrar",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [
+          {
+            "key": "authorization",
+            "value": "7pmeVxCiNwVIRim"
+          }
+        ],
+        "params": [],
+        "bodyParams": [
+          {
+            "key": "email",
+            "value": "teste@teste.com"
+          },
+          {
+            "key": "password",
+            "value": "123456"
+          }
+        ],
+        "rawParams": "{\"email\": \"teste@teste.com\", \"password\":\"123456\"}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "",
+        "preRequestScript": null,
+        "testScript": null,
+        "name": "registrar",
+        "collection": 1
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/login",
+        "method": "POST",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [
+          {
+            "key": "authorization",
+            "value": "7pmeVxCiNwVIRim"
+          }
+        ],
+        "params": [],
+        "bodyParams": [
+          {
+            "key": "email",
+            "value": "teste@teste.com"
+          },
+          {
+            "key": "password",
+            "value": "123456"
+          }
+        ],
+        "rawParams": "{\"email\": \"teste@teste.com\", \"password\":\"123456\"}",
+        "rawInput": true,
+        "contentType": "application/json",
+        "requestType": "",
+        "preRequestScript": null,
+        "testScript": null,
+        "name": "login",
+        "collection": 1
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/logout",
+        "method": "DELETE",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [
+          {
+            "key": "authorization",
+            "value": "7pmeVxCiNwVIRim"
+          }
+        ],
+        "params": [],
+        "bodyParams": [
+          {
+            "key": "email",
+            "value": "teste@teste.com"
+          },
+          {
+            "key": "password",
+            "value": "123456"
+          }
+        ],
+        "rawParams": "{\"email\": \"teste@teste.com\", \"password\":\"123456\"}",
+        "rawInput": true,
+        "contentType": "",
+        "requestType": "",
+        "preRequestScript": null,
+        "testScript": null,
+        "name": "logout",
+        "collection": 1
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/5",
+        "method": "DELETE",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [
+          {
+            "key": "authorization",
+            "value": "7pmeVxCiNwVIRim"
+          }
+        ],
+        "params": [],
+        "bodyParams": [
+          {
+            "key": "email",
+            "value": "teste@teste.com"
+          },
+          {
+            "key": "password",
+            "value": "123456"
+          }
+        ],
+        "rawParams": "{\"email\": \"teste@teste.com\", \"password\":\"123456\"}",
+        "rawInput": true,
+        "contentType": "",
+        "requestType": "",
+        "preRequestScript": null,
+        "testScript": null,
+        "name": "/:id",
+        "collection": 1
+      },
+      {
+        "url": "http://localhost:5000",
+        "path": "/2",
+        "method": "GET",
+        "auth": "None",
+        "httpUser": "",
+        "httpPassword": "",
+        "passwordFieldType": "password",
+        "bearerToken": "",
+        "headers": [
+          {
+            "key": "authorization",
+            "value": "7pmeVxCiNwVIRim"
+          }
+        ],
+        "params": [],
+        "bodyParams": [
+          {
+            "key": "email",
+            "value": "teste@teste.com"
+          },
+          {
+            "key": "password",
+            "value": "123456"
+          }
+        ],
+        "rawParams": "",
+        "rawInput": true,
+        "contentType": "",
+        "requestType": "",
+        "preRequestScript": null,
+        "testScript": null,
+        "name": "/:id",
+        "collection": 1
+      }
+    ]
+  }
+]

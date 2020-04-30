@@ -30,3 +30,9 @@ produção
 npm run build
 npm run start
 ```
+
+documentação dos endpoints<br>
+https://spurb.github.io/auth-gateway/
+
+url de homologação<br>
+https://spurb.github.io/auth-gateway/

@@ -22,7 +22,7 @@ app.use(customMiddlewares)
 
 // views
 router.get('/', usuarios.findAll)
-router.post('/registrar', usuarios.create)
+router.post('/cadastrar', usuarios.create)
 router.post('/login', usuarios.login)
 router.delete('/logout', usuarios.logout)
 router.get('/:id', usuarios.findOne)

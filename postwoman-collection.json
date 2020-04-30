@@ -1,10 +1,5 @@
 [
   {
-    "name": "My Collection",
-    "folders": [],
-    "requests": []
-  },
-  {
     "name": "auth-gateway",
     "folders": [],
     "requests": [
@@ -17,12 +12,7 @@
         "httpPassword": "",
         "passwordFieldType": "password",
         "bearerToken": "",
-        "headers": [
-          {
-            "key": "authorization",
-            "value": "7pmeVxCiNwVIRim"
-          }
-        ],
+        "headers": [],
         "params": [],
         "bodyParams": [
           {
@@ -45,7 +35,7 @@
       },
       {
         "url": "http://localhost:5000",
-        "path": "/registrar",
+        "path": "/cadastrar",
         "method": "POST",
         "auth": "None",
         "httpUser": "",
@@ -75,8 +65,8 @@
         "requestType": "",
         "preRequestScript": null,
         "testScript": null,
-        "name": "registrar",
-        "collection": 1
+        "name": "/cadastrar",
+        "collection": 0
       },
       {
         "url": "http://localhost:5000",
@@ -192,12 +182,7 @@
         "httpPassword": "",
         "passwordFieldType": "password",
         "bearerToken": "",
-        "headers": [
-          {
-            "key": "authorization",
-            "value": "7pmeVxCiNwVIRim"
-          }
-        ],
+        "headers": [],
         "params": [],
         "bodyParams": [
           {
@@ -218,6 +203,7 @@
         "name": "/:id",
         "collection": 1
       }
-    ]
+    ],
+    "collectionIndex": 1
   }
 ]

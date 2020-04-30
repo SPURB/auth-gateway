@@ -2,7 +2,6 @@ import express from 'express'
 import bodyParser from 'body-parser'
 import cors from 'cors'
 
-
 import customMiddlewares from './middlewares'
 import { Router } from 'express'
 import usuarios from './controllers'

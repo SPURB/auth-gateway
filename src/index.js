@@ -7,15 +7,11 @@ import { Router } from 'express'
 import usuarios from './controllers'
 
 const router = new Router()
-const version = `v${require('../package.json').version}`
+const { name, version } = require('../package.json')
 
 const app = express()
 
-let corsOptions = {
-  origin: 'http://localhost:3000'
-}
-
-app.use(cors(corsOptions))
+app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(customMiddlewares)
@@ -28,7 +24,7 @@ router.delete('/logout', usuarios.logout)
 router.get('/:id', usuarios.findOne)
 router.put('/:id', usuarios.update)
 router.delete('/:id', usuarios.delete)
-app.use(`/`, router)
+app.use(`/${name}/${version}/`, router) // base => http://localhost:5000/auth-gateway-spurb/0.0.1
 
 const PORT = process.env.PORT || 5000
 

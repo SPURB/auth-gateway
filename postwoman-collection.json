@@ -5,7 +5,7 @@
     "requests": [
       {
         "url": "http://localhost:5000",
-        "path": "/",
+        "path": "/auth-gateway-spurb/0.0.1",
         "method": "GET",
         "auth": "None",
         "httpUser": "",
@@ -35,7 +35,7 @@
       },
       {
         "url": "http://localhost:5000",
-        "path": "/cadastrar",
+        "path": "/auth-gateway-spurb/0.0.1/cadastrar",
         "method": "POST",
         "auth": "None",
         "httpUser": "",
@@ -66,11 +66,11 @@
         "preRequestScript": null,
         "testScript": null,
         "name": "/cadastrar",
-        "collection": 0
+        "collection": 1
       },
       {
         "url": "http://localhost:5000",
-        "path": "/login",
+        "path": "/auth-gateway-spurb/0.0.1/login",
         "method": "POST",
         "auth": "None",
         "httpUser": "",
@@ -100,12 +100,12 @@
         "requestType": "",
         "preRequestScript": null,
         "testScript": null,
-        "name": "login",
+        "name": "/login",
         "collection": 1
       },
       {
         "url": "http://localhost:5000",
-        "path": "/logout",
+        "path": "/auth-gateway-spurb/0.0.1/logout",
         "method": "DELETE",
         "auth": "None",
         "httpUser": "",
@@ -115,7 +115,7 @@
         "headers": [
           {
             "key": "authorization",
-            "value": "7pmeVxCiNwVIRim"
+            "value": "7eHTlA7KiM1Tr6Y"
           }
         ],
         "params": [],
@@ -131,16 +131,16 @@
         ],
         "rawParams": "{\"email\": \"teste@teste.com\", \"password\":\"123456\"}",
         "rawInput": true,
-        "contentType": "",
+        "contentType": "application/json",
         "requestType": "",
         "preRequestScript": null,
         "testScript": null,
-        "name": "logout",
+        "name": "/logout",
         "collection": 1
       },
       {
         "url": "http://localhost:5000",
-        "path": "/5",
+        "path": "/auth-gateway-spurb/0.0.1/5",
         "method": "DELETE",
         "auth": "None",
         "httpUser": "",
@@ -150,7 +150,7 @@
         "headers": [
           {
             "key": "authorization",
-            "value": "7pmeVxCiNwVIRim"
+            "value": "h7R3HOZG8Q7bz9F"
           }
         ],
         "params": [],
@@ -166,16 +166,16 @@
         ],
         "rawParams": "{\"email\": \"teste@teste.com\", \"password\":\"123456\"}",
         "rawInput": true,
-        "contentType": "",
+        "contentType": "application/json",
         "requestType": "",
         "preRequestScript": null,
         "testScript": null,
-        "name": "/:id",
+        "name": "/:delete",
         "collection": 1
       },
       {
         "url": "http://localhost:5000",
-        "path": "/2",
+        "path": "/auth-gateway-spurb/0.0.1/2",
         "method": "GET",
         "auth": "None",
         "httpUser": "",
@@ -204,6 +204,6 @@
         "collection": 1
       }
     ],
-    "collectionIndex": 1
+    "collectionIndex": 0
   }
 ]
